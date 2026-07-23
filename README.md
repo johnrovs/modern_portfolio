@@ -66,7 +66,7 @@ The contact form in `src/components/Contact.jsx` sends messages using **[EmailJS
    ```
    `.env.local` is already gitignored, so these stay out of version control.
 
-6. **Restart the dev server** (`npm run dev`) so Vite picks up the new env vars, then submit the form to test. Successful submissions land in `roverorommel12@gmail.com`; if the keys are missing or the request fails, the form shows an inline error instead of a false "success" message.
+6. **Restart the dev server** (`npm run dev`) so Vite picks up the new env vars, then submit the form to test. Successful submissions land in `johndoe@gmail.com`; if the keys are missing or the request fails, the form shows an inline error instead of a false "success" message.
 
 When you deploy (Vercel, Netlify, GitHub Pages, etc.), add the same three `VITE_EMAILJS_*` variables in your host's environment variable settings — `.env.local` never gets deployed.
 
